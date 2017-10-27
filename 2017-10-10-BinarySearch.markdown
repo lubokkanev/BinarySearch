@@ -403,7 +403,7 @@ The searches all work, but the O(log n) test is failing.  That's because there a
       assertTrue(""+spy.compares ,spy.compares <= compares+2);
     }
     
-Whew!  OK, everything works again.  Algorithm's a bit pretter too.  The tests could use a bit of condensing; I don't think that's the minimal set. But let's leave that for awhile.  I think there's more coming.
+Whew!  OK, everything works again.  Algorithm's a bit prettier too.  The tests could use a bit of condensing; I don't think that's the minimal set. But let's leave that for awhile.  I think there's more coming.
 
 >_I think it's interesting that you chose a recursive implementation of binary search, because that turns what could have been an algorithm that runs in O(log N) time and O(1) space into one that runs in O(log N) time and O(log N) space._
 
